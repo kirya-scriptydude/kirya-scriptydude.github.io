@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
-    background-color: rgb(117, 107, 122);
+:root {
+    --color-background:rgb(113, 99, 126);
+    --color-alt-background: rgb(119, 109, 128); 
+    --color-foreground:rgb(164, 146, 179);
 }
 
 .content {
@@ -15,15 +17,13 @@ body {
 
 .title {
     font-family: 'Poppins', 'Arial';
-
-    left: 0;
-    right: 0;
-    margin: 50px;
+    font-size: 128px;
+    margin: 24px;
 }
 
 .biography {
-    background-color: aliceblue;
-    width: 450px;
+    background-color: var(--color-foreground);
+    width: 25rem;
 
     *{
         text-align: center;
@@ -32,6 +32,13 @@ body {
 }
 
 .contact {
-    background-color: aliceblue;
-    width: 250px;
+    background-color: var(--color-foreground);
+    width: 23rem;
+}
+
+.pattern-blocks {
+    background-color: var(--color-background);
+    background-image:  repeating-linear-gradient(45deg, var(--color-alt-background) 25%, transparent 25%, transparent 75%, var(--color-alt-background) 75%, var(--color-alt-background)), repeating-linear-gradient(45deg, var(--color-alt-background) 25%, var(--color-background) 25%, var(--color-background) 75%, var(--color-alt-background) 75%, var(--color-alt-background));
+    background-position: 0 0, 10px 10px;
+    background-size: 42px 42px;
 }
