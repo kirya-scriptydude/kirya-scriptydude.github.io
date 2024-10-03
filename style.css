@@ -4,6 +4,7 @@
     --color-background:rgb(23, 21, 59);
     --color-alt-background: rgb(46, 35, 108); 
     --color-foreground:rgb(200, 172, 214);
+    --color-alt-foreground: rgb(207, 178, 221);
 }
 
 .content {
@@ -28,6 +29,8 @@
     margin-bottom: 50px;
     border: 0.5em double var(--color-alt-background);
 
+    transition: background-color 0.1s;
+
     p {
         text-align: center;
         font-family: 'Poppins';
@@ -38,6 +41,10 @@
         font-size: 125%;
     }
     
+}
+
+.biography:hover {
+    background-color: var(--color-alt-foreground);
 }
 
 .contact {
