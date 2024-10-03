@@ -36,7 +36,7 @@
     margin-bottom: 50px;
     border: 0.5em double var(--color-alt-background);
 
-    transition: background-color 0.1s;
+    transition: all 0.1s;
 
     p {
         text-align: center;
@@ -61,6 +61,7 @@
 
 .biography:hover {
     background-color: var(--color-alt-foreground);
+    border: 0.25em double var(--color-alt-background);
 }
 
 .contact {
