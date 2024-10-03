@@ -1,5 +1,6 @@
 const CAT_PIC_AMOUNT = 2;
 
+/*
 window.onload = function() {
     var num = Math.floor(Math.random() * CAT_PIC_AMOUNT) + 1;
     var filename = "img/cat-" + num + ".jpg";
@@ -9,3 +10,4 @@ window.onload = function() {
 
     console.log(filename)
 }
+*/
