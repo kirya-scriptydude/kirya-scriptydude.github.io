@@ -27,7 +27,7 @@ function insertFunFact() {
     element.innerHTML = fact
 
     var title = document.getElementById("fun-fact-title")
-    title.innerHTML = "Fun fact #" + num
+    title.innerHTML = "Fun fact #" + num + 1
 }
 
 
