@@ -7,8 +7,7 @@ const FUN_FACTS = [
     "I do video editing sometimes, most of my time spent editing was on Adobe Premiere Pro (adobe sucks)",
     "I hate all of my past usernames...",
     "I like watching small youtuber's under 10k subs.",
-    "My official profession is Слесарь КИПиА (instrumentation technician). It's pretty cool",
-    "Yakuza AKA Like A Dragon is #1 'game series as a whole' ever.",
+    "Yakuza/Like A Dragon is my #1 favorite game series.",
     "My first game I played was probably Sonic Adventure: DX.",
     "I wanna try making a game and uploading it to Steam.",
     "My breakfast is a butter sandwich + tea combo.",
@@ -17,7 +16,7 @@ const FUN_FACTS = [
     "I started programming as a hobby in 2022. Before that I was just scripting hello world's here and there.",
     "Lua is my favorite programming language because It's just so silly!!",
     "I really like eating bread. Just overall everything bread-related.",
-    "I am bad at school and i'm getting bad grades.",
+    "I am bad at school. Skill issue",
 ]
 
 function insertFunFact() {
