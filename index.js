@@ -13,7 +13,7 @@ const FUN_FACTS = [
     "My breakfast is a butter sandwich + tea combo.",
     "My favorite food is probably Блины (pancakes)",
     "I am not good at cooking.",
-    "I started programming as a hobby in 2022. Before that I was just scripting hello world's here and there.",
+    "I started programming as a hobby in 2022.",
     "Lua is my favorite programming language because It's just so silly!!",
     "I really like eating bread. Just overall everything bread-related.",
     "I am bad at school. Skill issue",
