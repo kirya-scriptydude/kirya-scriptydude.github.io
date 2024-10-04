@@ -18,17 +18,20 @@ const FUN_FACTS = [
     "Lua is my favorite programming language because It's just so silly!!",
     "I really like eating bread. Just overall everything bread-related.",
     "I am bad at school and i'm getting bad grades.",
-    "Don't ask me if i'm autistic or smth like that. I don't know lol"
 ]
 
-/*
-window.onload = function() {
-    var num = Math.floor(Math.random() * CAT_PIC_AMOUNT) + 1;
-    var filename = "img/cat-" + num + ".jpg";
+function insertFunFact() {
+    var num = Math.floor(Math.random() * FUN_FACTS.length - 1) + 1;
+    var fact = FUN_FACTS[num]
 
-    var element = document.getElementById("cat");
-    element.src = filename;
+    var element = document.getElementById("fun-fact")
+    element.innerHTML = fact
 
-    console.log(filename)
+    var title = document.getElementById("fun-fact-title")
+    title.innerHTML = "Fun fact #" + num
 }
-*/
+
+
+window.onload = function() {
+    insertFunFact()
+}
