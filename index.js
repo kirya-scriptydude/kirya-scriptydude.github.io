@@ -20,7 +20,7 @@ const FUN_FACTS = [
 ]
 
 function insertFunFact() {
-    var num = Math.floor(Math.random() * FUN_FACTS.length - 1) + 1;
+    var num = Math.floor(Math.random() * FUN_FACTS.length - 1) + 1
     var fact = FUN_FACTS[num]
 
     var element = document.getElementById("fun-fact")
@@ -30,6 +30,21 @@ function insertFunFact() {
     title.innerHTML = "Fun fact #" + (num + 1)
 }
 
+function copyToClipboard(elementId) {
+    console.log("copied ", elementId)
+    
+    var copyText = ""
+    switch (elementId) {
+        case "discord":
+           copyText = "scriptydude"
+           break;
+        default:
+            break;
+    }
+
+    navigator.clipboard.writeText(copyText) 
+    alert("copied " + elementId + " to clipboard!")
+}
 
 window.onload = function() {
     insertFunFact()
